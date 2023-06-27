@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-model = pickle.load(open(r"occupancy.pkl", 'rb'))
+model = pickle.load(open(r"occupancy .pkl", 'rb'))
 
 st.title('Room Occupancy Predictor')
 
